@@ -1,0 +1,51 @@
+.row {
+  height: 40px;
+}
+
+.container {
+  padding: 30px;
+}
+
+.red {
+  background-color: #ff0002;
+}
+
+.brown {
+  background-color: #835a0a;
+}
+
+.pink {
+  background-color: #ffbb80;
+}
+
+.black {
+  background-color: black;
+}
+
+.yellow {
+  background-color: #ffff00;
+}
+
+.blue {
+  background-color: #2600ff;
+}
+
+.grey {
+  background-color: #bdbdbd;
+}
+
+@media screen and (min-width: 768px) {
+
+  .container {
+    padding: 0 200px;
+  }
+
+  .red {
+    background-color: #008700;
+  }
+
+  .blue {
+    background-color: #20375f;
+  }
+
+}
