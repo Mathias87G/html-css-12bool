@@ -3,7 +3,7 @@
 }
 
 .container {
-  padding: 30px;
+  padding: 100px;
 }
 
 .red {
@@ -37,7 +37,7 @@
 @media screen and (min-width: 768px) {
 
   .container {
-    padding: 0 200px;
+    padding: 100px 200px;
   }
 
   .red {
@@ -46,6 +46,30 @@
 
   .blue {
     background-color: #20375f;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .container {
+    padding: 0 300px;
+  }
+
+  .row {
+    height: 50px
+  }
+
+  .red {
+    background-color: #835a0a;
+  }
+
+  .grey {
+    background-color: black;
+  }
+
+  .brown {
+    background-color: #bdbdbd
   }
 
 }
